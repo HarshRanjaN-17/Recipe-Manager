@@ -5,8 +5,7 @@ import resultsView from './views/resultsView.js';
 import paginationView from './views/paginationView.js';
 import bookmarksView from './views/bookmarksView.js';
 
-// import 'core-js/stable';
-import 'Regenerator-runtime/runtime';
+import 'Regenerator-runtime/runtime.js';
 
 // https://forkify-api.herokuapp.com/v2
 
@@ -54,8 +53,6 @@ const controlSearchResults = async function () {
     await model.loadSearchResult(query);
 
     //  3. Render result
-    // console.log(model.state.search.results);
-    // resultsView.render(model.state.search.results);
     resultsView.render(model.getSearchResultsPage());
 
     //  4. Render initial pagination buttons
@@ -78,7 +75,6 @@ const controlServings = function (newServings) {
   model.updateServings(newServings);
 
   //  Update the recipe veiw
-  // recipeView.render(model.state.recipe);
   recipeView.update(model.state.recipe);
 };
 
