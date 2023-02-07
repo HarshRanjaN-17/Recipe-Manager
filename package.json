@@ -1,19 +1,27 @@
 {
-  "name": "recipe_project",
+  "name": "recipemanager",
   "version": "1.0.0",
-  "description": "",
-  "default": "index.js",
+  "description": "recipe application",
+  "default": "index.html",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html --dist-dir ./dist"
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HarshRanjaN-17/Recipe-Manager.git"
   },
   "author": "Harsh Ranjan",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HarshRanjaN-17/Recipe-Manager/issues"
+  },
+  "homepage": "https://github.com/HarshRanjaN-17/Recipe-Manager#readme",
   "devDependencies": {
     "@parcel/transformer-sass": "^2.8.3",
     "parcel": "^2.8.3"
   },
   "dependencies": {
-    "fractional": "^1.0.0"
+    "fracty": "^1.0.11"
   }
 }

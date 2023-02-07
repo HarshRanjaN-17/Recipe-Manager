@@ -5,7 +5,7 @@ import resultsView from './views/resultsView.js';
 import paginationView from './views/paginationView.js';
 import bookmarksView from './views/bookmarksView.js';
 
-import 'Regenerator-runtime/runtime.js';
+import 'Regenerator-runtime/runtime';
 
 // https://forkify-api.herokuapp.com/v2
 
