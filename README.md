@@ -7,7 +7,7 @@
 
 ---
 
-Forkify is a recipe finding web application which uses data from the Forkify API. This app uses modern JavaScript tools, such as Webpack to bundle the modules, and Babel to convert ES6, ES7 and ES8 back to ES5. The user can search for a specific recipe, and save to a favorites list via local storage. The user can easily increase or decrease servings as per his need and can view detailed directions.
+RecipeManager is a recipe finding web application which uses data from the Forkify API. This app uses modern JavaScript tools, such as Webpack to bundle the modules, and Babel to convert ES6, ES7 and ES8 back to ES5. The user can search for a specific recipe, and save to a favorites list via local storage. The user can easily increase or decrease servings as per his need and can view detailed directions.
 
 ###### The app is deployed and available to use : [https://recipemanager.netlify.app/](https://recipemanager.netlify.app/ 'https://recipemanager.netlify.app/')
 
@@ -37,7 +37,6 @@ Forkify is a recipe finding web application which uses data from the Forkify API
 - Displays recipe images.
 - Allows user to easily add or remove bookmark to the recipe.
 - Directs user to source site for detailed recipe procedure.
-- Ingredients can be added/removed to/from the shopping list.
 - LocalStorage keeps the data when users exit the app.
 
 #### Licence
